@@ -1,7 +1,7 @@
 CPP = g++
 CPPFLAGS = -Wall -g
-OBJS = main.o
-DEPS = 
+OBJS = main.o mapper.o
+DEPS = mapper.hpp
 
 kLUT:${OBJS}
 	${CPP} ${CPPFLAGS} -o $@ ${OBJS}

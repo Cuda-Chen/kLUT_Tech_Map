@@ -1,4 +1,5 @@
 #include <iostream>
+#include "mapper.hpp"
 
 using namespace std;
 
@@ -10,6 +11,8 @@ int main(int argc, char *argv[])
     {
         cout << argv[i] << endl;
     }
+
+    mapper_foo();
 
     return 0;
 }
