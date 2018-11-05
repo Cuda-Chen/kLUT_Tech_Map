@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 
 #include "mapper.hpp"
 
@@ -11,5 +12,9 @@ void mapper_foo()
 }
 
 void mapper(string inputFile, string outputFile)
+{
+}
+
+void mapperCheater(std::string inputFile, std::strint outputFile)
 {
 }
