@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "mapper.hpp"
 
 using namespace std;
@@ -12,7 +13,11 @@ int main(int argc, char *argv[])
 	 return 1;
     }
 
-    mapper_foo();
+    string input = argv[1];
+    string output = argv[3];
+
+    //mapper_foo();
+    mapperCheater(input, output);
 
     return 0;
 }
